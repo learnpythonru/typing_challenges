@@ -3,7 +3,7 @@ import uuid
 from constants import ___
 
 
-def stringify(value: ___) -> ___:
+def stringify(value: any) -> ___:
     pass
 
 
