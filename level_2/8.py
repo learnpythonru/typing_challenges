@@ -1,9 +1,11 @@
+from typing import Mapping
+
 from constants import ___
 
 
 def calculate_total_spent_for_users(
         users_ids: set[int],
-        users_ids_to_users_map: dict[int, tuple[str, int, list[int]]]
+        users_ids_to_users_map: Mapping[int, tuple[str, int, list[int]]]
 ) -> int:
     pass
 
