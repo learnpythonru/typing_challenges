@@ -1,9 +1,9 @@
 import uuid
 
-from constants import ___
+from constants import none_type
 
 
-def stringify(value: ___) -> ___:
+def stringify(value: none_type|str) -> str:
     pass
 
 

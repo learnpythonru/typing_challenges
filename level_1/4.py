@@ -1,9 +1,9 @@
 import datetime
 
-from constants import ___
+from constants import none_type
 
 
-def calculate_age(date_of_birth: ___) -> ___:
+def calculate_age(date_of_birth: datetime.date|none_type) -> int:
     pass
 
 

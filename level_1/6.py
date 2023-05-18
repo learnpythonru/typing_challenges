@@ -1,7 +1,7 @@
-from constants import ___
+from constants import none_type
 
 
-def is_loan_amount_too_big(loan_amount_usd: ___, max_loan_amount_for_user_usd: ___) -> ___:
+def is_loan_amount_too_big(loan_amount_usd: int, max_loan_amount_for_user_usd: int|none_type) -> bool:
     pass
 
 
