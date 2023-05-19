@@ -1,2 +1,2 @@
-*env
-.mypy_cahe
+env
+.mypy_cache

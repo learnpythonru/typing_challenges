@@ -1,9 +1,10 @@
 import uuid
+from typing import Any
 
 from constants import ___
 
 
-def stringify(value: str | int | float | None) -> bool:
+def stringify(value: Any) -> bool:
     pass
 
 

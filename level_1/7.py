@@ -2,7 +2,7 @@ from constants import ___
 from typing import Any
 
 
-def send_email(header: str, text_content: str, send_to: str) -> Any | None:
+def send_email(header: str, text_content: str, send_to: str) -> None:
     pass
 
 
