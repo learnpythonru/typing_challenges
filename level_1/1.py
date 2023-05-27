@@ -1,7 +1,7 @@
-from constants import none_type
+from constants import ___
 
 
-def is_user_banned(user_id: int|none_type) -> bool:
+def is_user_banned(user_id: int) -> bool:
     pass
 
 

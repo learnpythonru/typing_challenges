@@ -1,9 +1,11 @@
 import uuid
 
 from constants import none_type
+from typing import Any
 
 
-def stringify(value: none_type|str) -> str:
+# сначала написала none_type|str, потому что хотела избежать Any
+def stringify(value: Any) -> str:
     pass
 
 

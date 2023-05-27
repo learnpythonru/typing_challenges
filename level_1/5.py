@@ -1,7 +1,7 @@
-from constants import none_type
+from constants import ___
 
 
-def is_correct_email(raw_email: str|none_type) -> bool:
+def is_correct_email(raw_email: str) -> bool:
     pass
 
 
