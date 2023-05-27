@@ -1,9 +1,9 @@
 import decimal
 
-from constants import ___
+from constants import none_type
 
 
-def get_transaction_amount(transaction_id: ___, transactions_amounts_map: ___) -> ___:
+def get_transaction_amount(transaction_id:int,  transactions_amounts_map: dict{int, decimal.decimal}) -> dict{int, decimal.decimal}|none_type:
     pass
 
 
