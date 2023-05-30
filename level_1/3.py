@@ -1,4 +1,4 @@
-from constants import none_type
+from constants import __
 
 
 def compose_full_name(first_name: str, last_name: str, middle_name: str|none_type) -> str:

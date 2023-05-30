@@ -1,10 +1,11 @@
 from constants import ___
 
 
-def create_user(user_name: str, user_age: int, after_created: None) -> None:
+
+def create_user(user_name: str, user_age: int, after_created: function) -> None:
     pass
 
-
+ 
 def send_test_email(user_id: int) -> None:
     pass
 
