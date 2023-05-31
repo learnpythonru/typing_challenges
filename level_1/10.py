@@ -1,9 +1,7 @@
-import uuid
-
 from constants import ___
 
 
-def stringify(value: str|int|float|None) -> str:
+def stringify(value: str | int | float | None) -> str:
     pass
 
 
