@@ -1,9 +1,9 @@
 import uuid
 
-from constants import none_type
+from constants import ___
 
 
-def is_correct_int(raw_int: str|none_type) -> bool:
+def is_correct_int(raw_int: str | None) -> bool:
     pass
 
 

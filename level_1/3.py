@@ -1,10 +1,10 @@
 from constants import __
 
 
-def compose_full_name(first_name: str, last_name: str, middle_name: str|none_type) -> str:
+def compose_full_name(first_name: str, last_name: str, middle_name: str | None) -> str:
     pass
 
 
 if __name__ == "__main__":
-    assert compose_full_name(first_name="John", last_name="Doe", middle_name=none_type) == "Doe John"
-    assert compose_full_name(first_name="Ilya", last_name="Lebedev", middle_name="Alexeyevich") == "Lebedev Ilya Alexeyevich"
+    assert compose_full_name(first_name = "John", last_name = "Doe", middle_name = None) == "Doe John"
+    assert compose_full_name(first_name = "Ilya", last_name = "Lebedev", middle_name = "Alexeyevich") == "Lebedev Ilya Alexeyevich"
