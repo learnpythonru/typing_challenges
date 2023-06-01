@@ -1,9 +1,11 @@
 import decimal
 
-from constants import __
+from constants import ___
 
 
-def get_transaction_amount(transaction_id:int,  transactions_amounts_map: dict[int, decimal.decimal]) -> dict[int, decimal.decimal] | None:
+def get_transaction_amount(transaction_id:int,  
+                           transactions_amounts_map: dict[int, decimal.Decimal]
+                           ) -> dict[int, decimal.Decimal] | None:
     pass
 
 
