@@ -3,9 +3,9 @@ from typing import TypedDict
 
 
 class User(TypedDict):
-    "name": str
-    "age": int
-    "transactions_sums": list[int]
+    name: str
+    age: int
+    transactions_sums: list[int]
 
 
 def calculate_total_spent_for_user(user: User) -> int:
