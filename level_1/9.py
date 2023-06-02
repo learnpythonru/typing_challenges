@@ -1,5 +1,4 @@
 import uuid
-
 from constants import ___
 
 
