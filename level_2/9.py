@@ -1,8 +1,10 @@
 import datetime
 from constants import ___
 
-
-def parse_receipt(raw_receipt: str) -> tuple[int, datetime.datetime, list[tuple[str, int, float]]]:
+# Вопрос: в тупле  [("Молоко", 1, 32.2)]) последний элемент - 32.2, 
+# даже type(32.2) выдаёт float, поэтому ящитаю, что убирать его не надо. Добавляю опцию int,
+# но чувствую подвох
+def parse_receipt(raw_receipt: str) -> tuple[int, datetime.date, list[tuple[str, int, float | int]]]:
     pass
 
  

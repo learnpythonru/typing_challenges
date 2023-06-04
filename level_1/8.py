@@ -1,10 +1,9 @@
 import decimal
 import uuid
+from constants import ___
 
-from constants import none_type
 
-
-def get_user_balance(user_id: uuid.UUID) -> decimal.Decimal|none_type:
+def get_user_balance(user_id: uuid.UUID) -> decimal.Decimal | None:
     pass
 
 
