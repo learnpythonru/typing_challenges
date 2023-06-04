@@ -1,9 +1,8 @@
 from constants import ___
-from types import FunctionType
+from typing import Callable
 
-# Полагаюсь на это:
-#  types.FunctionType The type of user-defined functions and functions created by lambda expressions.
-def create_user(user_name: str, user_age: int, after_created: FunctionType) -> None:
+
+def create_user(user_name: str, user_age: int, after_created: Callable[[int], None]) -> None:
     pass
 
  
