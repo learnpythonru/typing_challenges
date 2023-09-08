@@ -1,12 +1,13 @@
 import datetime
-
 from constants import ___
 
 
-def parse_receipt(raw_receipt: ___) -> ___:
+def parse_receipt(
+    raw_receipt: str,
+    ) -> tuple[int, datetime.date, list[tuple[str, int, float]]]:
     pass
 
-
+ 
 if __name__ == "__main__":
     assert parse_receipt(
         raw_receipt="Кассовый чек 12 Продажа Позиции: ...",
