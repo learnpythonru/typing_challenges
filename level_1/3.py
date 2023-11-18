@@ -1,7 +1,8 @@
 from constants import ___
+from typing import Optional
 
 
-def compose_full_name(first_name: ___, last_name: ___, middle_name: ___) -> ___:
+def compose_full_name(first_name: str, last_name: str, middle_name: Optional[str]) -> ___:
     pass
 
 

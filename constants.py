@@ -1,1 +1,1 @@
-___ = None
+___ = type(None)

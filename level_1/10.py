@@ -1,9 +1,10 @@
 import uuid
+from typing import Optional
 
 from constants import ___
 
 
-def stringify(value: ___) -> ___:
+def stringify(value: Optional[str | int | float]) -> ___:
     pass
 
 
