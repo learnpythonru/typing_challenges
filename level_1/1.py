@@ -1,7 +1,7 @@
 from constants import ___
 
 
-def is_user_banned(user_id: int) -> None:
+def is_user_banned(user_id: int) -> ___:
     pass
 
 
