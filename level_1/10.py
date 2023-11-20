@@ -1,9 +1,7 @@
-import uuid
-
-from constants import ___
+from typing import Any
 
 
-def stringify(value: ___) -> ___:
+def stringify(value: Any) -> str | None:
     pass
 
 
