@@ -1,9 +1,4 @@
-import uuid
-
-from constants import ___
-
-
-def is_correct_int(raw_int: ___) -> ___:
+def is_correct_int(raw_int: str | None) -> bool | None:
     pass
 
 
