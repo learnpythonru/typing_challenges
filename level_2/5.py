@@ -1,7 +1,14 @@
-from constants import ___
+from dataclasses import dataclass
 
 
-def get_current_user() -> ___:
+@dataclass(frozen=True, kw_only=True, slots=True)
+class User:
+    name: str
+    age: int
+    email: str
+
+
+def get_current_user() -> User | None:
     pass
 
 
