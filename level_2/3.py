@@ -1,9 +1,9 @@
 import decimal
+from typing import Mapping
 
-from constants import ___
 
-
-def get_transaction_amount(transaction_id: ___, transactions_amounts_map: ___) -> ___:
+def get_transaction_amount(transaction_id: int,
+                           transactions_amounts_map: Mapping[int, decimal.Decimal]) -> decimal.Decimal | None:
     pass
 
 
