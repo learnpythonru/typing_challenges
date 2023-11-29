@@ -1,7 +1,7 @@
-from constants import ___
+from typing import Mapping
 
 
-def is_name_male(name: ___, name_gender_map: ___) -> ___:
+def is_name_male(name: str, name_gender_map: Mapping[str, bool]) -> bool | None:
     pass
 
 
