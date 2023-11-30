@@ -1,14 +1,7 @@
-from dataclasses import dataclass
+from typing import Tuple
 
 
-@dataclass(frozen=True, kw_only=True, slots=True)
-class User:
-    name: str
-    age: int
-    email: str
-
-
-def get_current_user() -> User | None:
+def get_current_user() -> Tuple[str, int, str] | None:
     pass
 
 
