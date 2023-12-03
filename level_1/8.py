@@ -4,7 +4,8 @@ import uuid
 from constants import ___
 
 
-def get_user_balance(user_id: ___) -> ___:
+
+def get_user_balance(user_id: uuid.UUID) -> decimal.Decimal:
     pass
 
 
