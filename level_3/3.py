@@ -1,7 +1,9 @@
 from constants import ___
 
+from typing import Callable
 
-def create_user(user_name: ___, user_age: ___, after_created: ___) -> ___:
+
+def create_user(user_name: str, user_age: str, after_created: Callable[[int], None]) -> None:
     pass
 
 
