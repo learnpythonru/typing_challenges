@@ -1,8 +1,9 @@
-from constants import ___
+# from constants import ___
 
 
-def compose_full_name(first_name: ___, last_name: ___, middle_name: ___) -> ___:
-    pass
+def compose_full_name(first_name: str, last_name: str, middle_name: str | None) -> str:
+    middle_name = f' {middle_name}' if middle_name else ''
+    return f'{last_name} {first_name}{middle_name}'
 
 
 if __name__ == "__main__":

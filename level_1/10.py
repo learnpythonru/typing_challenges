@@ -1,8 +1,9 @@
-from constants import ___
+# from constants import ___
+from typing import Any
 
 
-def stringify(value: ___) -> ___:
-    pass
+def stringify(value: Any) -> str:
+    return str(value)
 
 
 if __name__ == "__main__":

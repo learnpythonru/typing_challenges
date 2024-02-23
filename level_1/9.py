@@ -1,8 +1,10 @@
-from constants import ___
+# from constants import ___
 
 
-def is_correct_int(raw_int: ___) -> ___:
-    pass
+def is_correct_int(raw_int: str | None) -> bool:
+    if not raw_int:
+        return False
+    return raw_int.isalnum()
 
 
 if __name__ == "__main__":

@@ -1,1 +1,1 @@
-___ = None
+VAR_NONE = None
