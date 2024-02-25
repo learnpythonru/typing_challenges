@@ -1,6 +1,3 @@
-# from constants import ___  # какой в этом смысл? не понятно зачем...  # noqa: ERA001
-
-
 def is_user_banned(user_id: int) -> bool:
     return bool(user_id)
 

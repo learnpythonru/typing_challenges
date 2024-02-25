@@ -3,7 +3,7 @@ import uuid
 
 
 def get_user_balance(user_id: uuid.UUID) -> decimal.Decimal:  # noqa: ARG001
-    return decimal.Decimal("265.2")  # снова не понял, как из uuid получить decimal.Decimal("265.2")
+    return decimal.Decimal("265.2")
 
 
 if __name__ == "__main__":

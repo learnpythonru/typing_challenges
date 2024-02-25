@@ -2,7 +2,7 @@ from constants import VAR_NONE
 
 
 def send_email(header: str, text_content: str, send_to: str) -> None:
-    return VAR_NONE  # не придумал как это правильно сделать
+    return VAR_NONE
 
 
 if __name__ == "__main__":

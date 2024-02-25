@@ -1,8 +1,4 @@
-from typing import Any
-
-
-def stringify(value: Any) -> str:  # 5:22 ANN401 Dynamically typed expressions (typing.Any) are disallowed in `value`
-    # либо тут может быть str | int | flat | None
+def stringify(value: str | int | float | None) -> str:
     return str(value)
 
 
