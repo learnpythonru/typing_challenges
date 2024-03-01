@@ -1,7 +1,14 @@
 from constants import ___
 
 
-def calculate_total_spent_for_users(users_ids: ___, users_ids_to_users_map: ___) -> ___:
+@dataclasses.dataclass
+class User:
+    first_name: str
+    age: int
+    spent_list: list[int]
+
+
+def calculate_total_spent_for_users(users_ids: set[int], users_ids_to_users_map: dict[int, User]) -> int:
     pass
 
 
