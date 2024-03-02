@@ -1,7 +1,11 @@
 from constants import ___
+from typing import TypeAlias
+
+type User = tuple[str, int, list[int]]
+# User: TypeAlias = tuple[str, int, list[int]]  # for lower Python 3.12
 
 
-def calculate_total_spent_for_users(users_ids: set[int], users_ids_to_users_map: dict[int, tuple[str, int, list[int]]]) -> int:
+def calculate_total_spent_for_users(users_ids: set[int], users_ids_to_users_map: dict[int, User]) -> int:
     pass
 
 
